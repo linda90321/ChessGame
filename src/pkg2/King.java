@@ -7,7 +7,10 @@ public class King extends Piece {
 		super();
 		this.color = color;
 	}
-
+/*
+ * (non-Javadoc)
+ * @see pkg2.Piece#isValid(pkg2.Piece[][], int, int, int, int)
+ */
 	@Override
 	public boolean isValid(Piece[][] board, int initX, int initY, int targetX,
 			int targetY) {
